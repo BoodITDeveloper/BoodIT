@@ -7,7 +7,8 @@ navbarPlaceholder.innerHTML = `
         <ul class="navbar-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">Over Ons</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../contact/contactpage.html">Contact</a></li>
         </ul>
     </nav>
 `;
+
