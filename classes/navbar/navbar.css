@@ -1,0 +1,27 @@
+#navbar-placeholder {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+#navbar-placeholder .navbar-list {
+    list-style: none; /* Verwijder standaard opsommingstekens */
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-placeholder .navbar-list li {
+    margin: 0 15px;
+}
+
+#navbar-placeholder .navbar-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar-placeholder .navbar-list li a:hover {
+    text-decoration: underline;
+}
