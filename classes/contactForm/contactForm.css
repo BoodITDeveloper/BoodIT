@@ -1,0 +1,80 @@
+/* Algemene stijl voor de contact pagina */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titel voor het formulier */
+  .contact-form h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Stijlen voor de labels */
+  .contact-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Stijlen voor de input velden */
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Focus effect voor input velden */
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #007BFF; /* Kleurrijk effect bij focus */
+  }
+  
+  /* Stijlen voor de button */
+  .contact-form button {
+    background-color: #CCA43B;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect voor de submit knop */
+  .contact-form button:hover {
+    background-color: #96792f;
+  }
+  
+  /* Stijlen voor het foutmelding of succesbericht */
+  .contact-form .message {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .contact-form .message.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .contact-form .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }

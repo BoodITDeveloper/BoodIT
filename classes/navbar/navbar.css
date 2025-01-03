@@ -1,27 +1,41 @@
+/* Navbar Container */
 #navbar-placeholder {
-    background-color: #333;
-    color: white;
+    background-color: #E5E5E5; /* Achtergrondkleur van de navbar */
+    color: #CCA43B; /* Kleur van de tekst */
     padding: 1rem;
 }
 
-#navbar-placeholder .navbar-list {
+.navbar-container {
+    display: flex; /* Flexbox voor het uitlijnen van items */
+    justify-content: space-between; /* Zorgt ervoor dat de items aan beide zijden worden uitgelijnd */
+    align-items: center; /* Verticaal centreren van de items */
+}
+
+/* Logo Styling */
+.navbar-container .logo img {
+    height: 40px; /* Pas de hoogte van je logo aan zoals je wilt */
+    width: auto; /* Zorgt ervoor dat de breedte automatisch wordt aangepast */
+}
+
+/* Navbar lijst (links naar rechts uitgelijnd) */
+.navbar-list {
     list-style: none; /* Verwijder standaard opsommingstekens */
-    display: flex;
-    justify-content: center;
+    display: flex; /* Gebruik flexbox om de lijst items horizontaal te plaatsen */
     margin: 0;
     padding: 0;
 }
 
-#navbar-placeholder .navbar-list li {
-    margin: 0 15px;
+.navbar-list li {
+    margin: 0 15px; /* Ruimte tussen de navigatielinks */
 }
 
-#navbar-placeholder .navbar-list li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.navbar-list li a {
+    color: #CCA43B; /* Kleur van de links */
+    text-decoration: none; /* Verwijder onderstreping van de links */
+    font-weight: bold; /* Maak de tekst dikgedrukt */
+    text-transform: uppercase; /* Maak de tekst hoofdletters */
 }
 
-#navbar-placeholder .navbar-list li a:hover {
-    text-decoration: underline;
+.navbar-list li a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
 }

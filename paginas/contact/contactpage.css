@@ -1,0 +1,18 @@
+/* Algemene resets */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#contact {
+    padding: 50px 60px; /* Voeg wat padding toe voor ruimte rondom de inhoud */
+    background-color: #242F40; /* Achtergrondkleur voor de contact sectie */
+    display: flex; /* Gebruik flexbox om het formulier te centreren */
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal bovenaan uitlijnen */
+    min-height: 100vh; /* Zorg dat de sectie altijd minimaal de hoogte van het scherm heeft */
+    text-align: left; /* Center de tekst in de sectie */
+  }

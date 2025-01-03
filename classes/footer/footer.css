@@ -1,6 +1,6 @@
 footer {
-    background-color: #222;
-    color: white;
+    background-color: #E5E5E5;
+    color: #242F40;
     padding: 20px 0;
     text-align: center;
 }
@@ -25,7 +25,7 @@ footer {
 }
 
 .footer-links a {
-    color: #ff6600;
+    color: #CCA43B;
     text-decoration: none;
 }
 
