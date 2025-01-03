@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BoodIT</title>
-</head>
-<body>
+    <!-- Voeg de nieuwste versie van EmailJS toe -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ndjw8-YyvFpxc32V0",
+      });
+   })();
+</script>
+    <script src="/classes/navbar/navbar.js" defer></script>
+    <script src="/classes/footer/footer.js" defer></script>
+    <script src="/classes/contactForm/contactForm.js" defer></script>
+
+    <link rel="stylesheet" href="/classes/navbar/navbar.css" />
+    <link rel="stylesheet" href="/classes/footer/footer.css" />
+    <link rel="stylesheet" href="/classes/contactForm/contactForm.css" />
+    <link rel="stylesheet" href="contactpage.css" />
+   
+  </head>
+  <body>
+    <!-- navigatie balk -->
+    <header id="navbar"></header>
     
-</body>
+    <section id="contact">
+      <!-- Container waar de contact form dynamisch wordt toegevoegd -->
+      <div id="contactFormContainer"></div>
+    </section>
+     <!-- Footer-->
+     <footer id="footer"></footer>
+  </body>
 </html>
