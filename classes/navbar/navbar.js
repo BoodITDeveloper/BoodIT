@@ -6,13 +6,13 @@ navbarPlaceholder.innerHTML = `
     <div class="navbar-container">
             <!-- Logo -->
             <div class="logo">
-            <a href="../homepage/homepage.html">
+            <a href="index.html">
                 <img src="../../assets/android-chrome-192x192.png" alt="Logo" />
             </div>
             <!-- Navigatiebalk -->
         <ul class="navbar-list">
             <li><a href="about.html">Over Ons</a></li>
-            <li><a href="../contact/contactpage.html">Contact</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
         </ul>
     </nav>
 `;
